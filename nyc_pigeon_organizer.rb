@@ -2,7 +2,8 @@ def nyc_pigeon_organizer(pigeon_data)
   pigeon_list = {}
   attributes = pigeon_data.keys
   attributes.each do |x|
-    pigeon_data[x].keys.each do |y|
+    options = pigeon_data[x].keys
+    options.each do |y|
       pigeon_data[x][y].each do |n|
         if pigeon_list[n].nil?
           pigeon_list[n] = {
