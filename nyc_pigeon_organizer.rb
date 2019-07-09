@@ -9,3 +9,7 @@ def nyc_pigeon_organizer(pigeon_data)
   end
   pigeon_list
 end
+
+pigeon_data = {
+  :attribute => {
+}
