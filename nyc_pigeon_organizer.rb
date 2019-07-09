@@ -5,14 +5,12 @@ def nyc_pigeon_organizer(pigeon_data)
     pigeon_data[x].keys = options
     options.each do |y|
       pigeon_data[x][y].each do |n|
-        n.each do |i|
-          if pigeon_list[i].nil?
-            pigeon_list[i] = {
-              :color => {},
-              :gender => {},
-              :lives => {}
-            }
-          end
+        if pigeon_list[i].nil?
+          pigeon_list[i] = {
+            :color => {},
+            :gender => {},
+            :lives => {}
+          }
         end
       end     
     end
