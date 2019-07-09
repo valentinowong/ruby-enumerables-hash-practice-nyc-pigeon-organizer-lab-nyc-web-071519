@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(pigeon_data)
   attributes = pigeon_data.keys
   color_options = pigeon_data[attributes[0]].keys
   pigeon_data
-  pigeon_data.each do |x,y,z|
+  pigeon_data[attributes[0]][color_options[0]][0].each do |x,y,z|
     pigeon_list[[attributes[x]][color_options[y]][z]] => {
         :color => {},
         :gender => {},
