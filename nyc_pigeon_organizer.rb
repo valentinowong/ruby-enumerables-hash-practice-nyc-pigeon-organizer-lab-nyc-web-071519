@@ -3,6 +3,8 @@ def nyc_pigeon_organizer(data)
   data.keys.each do |attribute|
     if pigeon_list[attribute]
       
+    else
+      
     end
   end
   pigeon_list
