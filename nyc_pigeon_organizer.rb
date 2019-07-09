@@ -4,4 +4,5 @@ def nyc_pigeon_organizer(data)
     if pigeon_list[attribute]
       pigeon_list
   end
+  pigeon_list
 end
