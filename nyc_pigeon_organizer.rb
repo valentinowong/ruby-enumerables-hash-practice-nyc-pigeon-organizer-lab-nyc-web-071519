@@ -1,6 +1,7 @@
 def nyc_pigeon_organizer(pigeon_data)
   pigeon_list = {}
   attributes = pigeon_data.keys
+  pigeon_data
   
   pigeon_data[:color].values.each do |name|
       pigeon_
