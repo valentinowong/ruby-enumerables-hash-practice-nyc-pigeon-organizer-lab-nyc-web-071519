@@ -1,6 +1,6 @@
-def nyc_pigeon_organizer(data)
+def nyc_pigeon_organizer(pigeon_data)
   pigeon_list = {}
-  data[:color].each do |color,name|
+  pigeon_data[:color].each do |color,name|
       pigeon_list[name] => {
         :color => {},
         :gender => {},
