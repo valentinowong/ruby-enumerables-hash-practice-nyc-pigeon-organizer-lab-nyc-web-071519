@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(pigeon_data)
           pigeon_list[c] = {
             a => [b],
           }
-        elseif pigeon_list[c][a].nil?
+        elsif pigeon_list[c][a].nil?
           pigeon_list[c][a] = [b]
         else
           pigeon_list[c][a].push(b)
