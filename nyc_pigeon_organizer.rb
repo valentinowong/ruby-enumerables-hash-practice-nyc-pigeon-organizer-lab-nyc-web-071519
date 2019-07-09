@@ -1,6 +1,7 @@
 def nyc_pigeon_organizer(data)
-  new_hash = {}
+  pigeon_list = {}
   data.keys.each do |attribute|
-    new_hash
+    if pigeon_list[attribute]
+      pigeon_list
   end
 end
