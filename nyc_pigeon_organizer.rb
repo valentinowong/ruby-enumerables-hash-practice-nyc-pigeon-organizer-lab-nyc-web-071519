@@ -5,7 +5,9 @@ def nyc_pigeon_organizer(data)
       
     else
       pigeon_list[attribute.keys[0]] = {
-        
+        color: 
+        gender: 
+        lives: 
       }
     end
   end
