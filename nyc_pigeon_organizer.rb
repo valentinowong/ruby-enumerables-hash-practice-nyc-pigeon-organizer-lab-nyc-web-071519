@@ -8,9 +8,7 @@ def nyc_pigeon_organizer(pigeon_data)
       names.each do |c|
         if pigeon_list[c].nil?
           pigeon_list[c] = {
-            :color => {},
-            :gender => {},
-            :lives => {}
+            a: [b],
           }
         end
       end     
