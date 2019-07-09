@@ -8,12 +8,12 @@ def nyc_pigeon_organizer(pigeon_data)
       names.each do |c|
         if pigeon_list[c].nil?
           pigeon_list[c] = {
-            a => ["b],
+            a => ["#{b}"],
           }
         elsif pigeon_list[c][a].nil?
-          pigeon_list[c][a] = [b]
+          pigeon_list[c][a] = ["#{b}"]
         else
-          pigeon_list[c][a].push(b)
+          pigeon_list[c][a].push("#{b}")
         end
       end     
     end
