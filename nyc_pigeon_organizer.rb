@@ -13,11 +13,9 @@ def nyc_pigeon_organizer(pigeon_data)
               :lives => {}
             }
           end
-      end
+        end
+      end     
     end
-
-      
-    end  
   end
   pigeon_list
 end
